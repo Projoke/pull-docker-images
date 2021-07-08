@@ -1,5 +1,1 @@
-k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.2.0
-k8s.gcr.io/sig-storage/csi-resizer:v1.2.0
-k8s.gcr.io/sig-storage/csi-provisioner:v2.2.2
-k8s.gcr.io/sig-storage/csi-snapshotter:v4.1.1
-k8s.gcr.io/sig-storage/csi-attacher:v3.2.1
+gcr.io/spark-operator/spark-operator:latest
