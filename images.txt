@@ -1,1 +1,1 @@
-willdockerhub/kube-state-metrics:v2.0.0
+k8s.gcr.io/cpa/cluster-proportional-autoscaler-amd64:1.8.3
