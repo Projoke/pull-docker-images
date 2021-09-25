@@ -17,7 +17,7 @@ env:
     - DOCKERHUB_USERNAME=oakgo
 
 before_script:
-  - echo "@You04039" | docker login -u "$DOCKERHUB_USERNAME" --password-stdin
+  - echo "$DOCKERHUB_PASSWORD" | docker login -u "$DOCKERHUB_USERNAME" --password-stdin
  
 script:
   - |
