@@ -1,8 +1,8 @@
 ## usage
 
-- Pull images from dockerhub or other registry then retag push to youself dockerhub or aliyun registry
+- Pull images from dockerhub or other registry then retag push to youself dockerhub
 
-[![Build Status](https://travis-ci.com/willzhang/pull-docker-images.svg?branch=master)](https://travis-ci.com/willzhang/pull-docker-images)
+[![Build Status](https://api.travis-ci.com/Projoke/pull-docker-images.svg?branch=master)](https://travis-ci.com/Projoke/pull-docker-images)
 
 use travis-ci pull docker images from google gcr.io or coreos quay.io to dockerhub or aliyun-registry
 
