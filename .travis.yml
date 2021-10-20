@@ -16,12 +16,12 @@ services: docker
 env:
   global:
     - DOCKERHUB_USERNAME=oakgo
+    - DOCKER_CLI_EXPERIMENTAL=enabled
 
 before_script:
   - echo '{"experimental":true}' | sudo tee /etc/docker/daemon.json
   - sudo systemctl restart docker
   - echo "$DOCKERHUB_PASSWORD" | docker login -u "$DOCKERHUB_USERNAME" --password-stdin
-  - sudo export DOCKER_CLI_EXPERIMENTAL=enabled
  
 script:
   - |
