@@ -8,6 +8,7 @@
 #    choose "more options-->settings-->Environment Variables"
 
 os: linux
+arch: arm64
 dist: bionic
 language: shell
 services: docker
