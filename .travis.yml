@@ -24,6 +24,7 @@ before_script:
  
 script:
   - |
+    docker version
     echo "start pull retag and push"
     count=$(cat images.txt | wc -l)
     icount=1
@@ -35,7 +36,7 @@ script:
       docker tag $image $DOCKERHUB_USERNAME/$image_name
 
       # push to dockerhub
-      docker push $DOCKERHUB_USERNAME/$image_name
+      docker push $DOCKERHUB_USERNAME/$image_name --platform linux/arm64
       
       ((icount++))
     done
