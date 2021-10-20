@@ -29,7 +29,7 @@ script:
     do
       echo [$icount/$count]: $image
       image_name=${image##*/}
-      docker pull $image
+      docker pull $image --platform=arm64
       docker tag $image $DOCKERHUB_USERNAME/$image_name
 
       # push to dockerhub
