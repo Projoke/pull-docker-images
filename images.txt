@@ -3,11 +3,11 @@ k8s.gcr.io/kube-apiserver-arm64:v1.18.9
 k8s.gcr.io/kube-controller-manager-arm64:v1.18.9
 k8s.gcr.io/kube-scheduler-arm64:v1.18.9
 k8s.gcr.io/cpa/cluster-proportional-autoscaler-arm64:1.8.3
-k8s.gcr.io/addon-resizer-arm64:1.8.11
+k8s.gcr.io/addon-resizer-arm64:2.3
 #k8s.gcr.io/ingress-nginx/controller:0.32.0
-k8s.gcr.io/pause:3.2
+k8s.gcr.io/pause-arm64:3.2
 k8s.gcr.io/coredns:1.6.7
-k8s.gcr.io/metrics-server/metrics-server:v0.3.6
+k8s.gcr.io/metrics-server/metrics-server-arm64:v0.3.6
 quay.io/calico/node:v3.18.1-arm64
 quay.io/calico/cni:v3.18.1-arm64
 quay.io/calico/kube-controllers:v3.18.1-arm64
