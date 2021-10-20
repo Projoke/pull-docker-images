@@ -29,7 +29,7 @@ script:
     echo "start pull retag and push"
     count=$(cat images.txt | wc -l)
     icount=1
-    for image in `cat images.txt`
+    for image in `cat images.txt | grep -v ^#`
     do
       echo [$icount/$count]: $image
       image_name=${image##*/}
@@ -40,7 +40,7 @@ script:
 
       # push to dockerhub
       docker push $DOCKERHUB_USERNAME/$image_name
-      
+
       ((icount++))
     done
 
