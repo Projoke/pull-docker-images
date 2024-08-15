@@ -1,1 +1,1 @@
-FROM ghcr.io/chroma-core/chroma:0.5.1
+FROM container-registry.oracle.com/database/free:latest
