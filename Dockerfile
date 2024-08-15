@@ -1,1 +1,1 @@
-FROM postgres:15-alpine
+FROM semitechnologies/weaviate:1.19.0
