@@ -1,1 +1,1 @@
-FROM opensearchproject/opensearch-dashboards:latest
+FROM myscale/myscaledb:1.6
