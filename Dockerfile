@@ -1,1 +1,1 @@
-FROM tensorchord/pgvecto-rs:pg16-v0.3.0
+FROM ghcr.io/chroma-core/chroma:0.5.1
