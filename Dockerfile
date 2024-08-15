@@ -1,1 +1,1 @@
-FROM ubuntu/squid:latest
+FROM postgres:15-alpine
