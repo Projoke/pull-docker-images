@@ -1,1 +1,1 @@
-FROM myscale/myscaledb:1.6
+FROM downloads.unstructured.io/unstructured-io/unstructured-api:latest
