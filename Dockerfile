@@ -1,1 +1,1 @@
-FROM semitechnologies/weaviate:1.19.0
+FROM langgenius/qdrant:v1.7.3
