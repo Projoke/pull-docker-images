@@ -1,1 +1,1 @@
-FROM docker.io/library/ubuntu:22.04
+FROM ghcr.io/ggerganov/llama.cpp:full
